@@ -10,13 +10,6 @@
   WINDOW_WIDTH = 1000
   WINDOW_HEIGHT = 800
   
-  
-  #self: 클래스의 메서드에서 항상 첫 번째 매개변수로 사용, 클래스의 인스턴스
-  #nvertices: 다각형 객체의 변의 수 (기본값은 3, 삼각형).
-  #radius: 다각형 객체의 반지름 (기본값은 70).
-  #color: 다각형 객체의 색상을 나타내는 RGB 튜플 (기본값은 (100, 0, 0)로 빨간색).
-  #vel: 다각형 객체의 속도를 나타내는 2D 벡터 (기본값은 [5.0, 0.0]으로 오른쪽으로 이동하는 속도).
-  
   class myPolygon():
       def __init__(self, nvertices = 3, radius=70, color=(100,0,0), vel=[5.,0]):
           self.radius = radius
